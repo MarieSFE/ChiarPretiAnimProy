@@ -1,0 +1,36 @@
+:root {
+    --text-color: rgb(0,0,0);
+    --contrast-color: rgb(189, 55, 0);
+    --bg-dark-color: rgb(0,0,0);
+    --bg-light-color: rgba(0,0,0,0.1); 
+    --text-light-color: rgba(255, 255, 255);
+}
+
+h1 {
+    font-size: 3.5em;
+    color: rgb(11, 5, 15);    
+}
+
+.special {
+    background-color: rgb(159, 212, 248);
+}
+
+
+
+@keyframes desaparecer {
+    0% {opacity: 100%;}
+    50% {opacity: 00%;}
+    100% {width: 100%;}
+    
+}
+
+h2{
+    animation-name: desaparecer;
+    animation-duration: 5s;
+    animation-iteration-count: 0;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+}
+
+
+
